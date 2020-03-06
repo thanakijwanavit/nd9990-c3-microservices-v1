@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+data:
+  AWS_PASSWORD:
+  AWS_USERNAME: 
+metadata:
+  name: aws_secret
+type: Opaque
