@@ -18,5 +18,5 @@ before_install:
 
 
 install:
-    - echo hello world
-  #- docker-compose -f ./lesson-3-Container/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+    #- echo hello world
+  - docker-compose -f lesson-3-Container/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
